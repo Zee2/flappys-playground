@@ -1,7 +1,7 @@
 {
   "dependencies": {
     "com.microsoft.mixedreality.openxr": {
-      "version": "file:MixedReality/com.microsoft.mixedreality.openxr-1.6.0.tgz",
+      "version": "file:MixedReality/com.microsoft.mixedreality.openxr-1.6.0-spaces.0.tgz",
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
@@ -86,6 +86,16 @@
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {}
+    },
+    "com.qualcomm.snapdragon.spaces": {
+      "version": "file:SnapdragonSpaces_Package_0_8_1.tgz",
+      "depth": 0,
+      "source": "local-tarball",
+      "dependencies": {
+        "com.unity.xr.openxr": "1.4.2",
+        "com.unity.xr.arfoundation": "4.1.7",
+        "com.unity.xr.interaction.toolkit": "1.0.0-pre.6"
+      }
     },
     "com.unity.collab-proxy": {
       "version": "1.15.15",
