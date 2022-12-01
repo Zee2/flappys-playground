@@ -686,6 +686,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Parrot_Anim
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7c3e76ec17fd5bb4d9923926dc2a58ac, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1216940391925465085, guid: 7c3e76ec17fd5bb4d9923926dc2a58ac, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: -34.19566
@@ -1191,21 +1195,21 @@ AudioSource:
   m_GameObject: {fileID: 1324469587}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: ace2b296f0df5974b9e90308d0c35909, type: 2}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.201
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 1
-  SpatializePostEffects: 0
+  SpatializePostEffects: 1
   Priority: 128
   DopplerLevel: 1
   MinDistance: 0
-  MaxDistance: 10
+  MaxDistance: 5
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 1
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0
@@ -1219,17 +1223,17 @@ AudioSource:
       outSlope: 0
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
+      inWeight: 0
+      outWeight: 0
     - serializedVersion: 3
       time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
+      value: 0.99606323
+      inSlope: 0.000001423991
+      outSlope: 0.000001423991
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
+      inWeight: 0.12557238
+      outWeight: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
